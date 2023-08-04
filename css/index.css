@@ -60,7 +60,7 @@ margin: 0.5%;
 /*=======================Los Gamers Galeria=============================*/
 .container-galery {
   max-width: 800px;
-  margin: 3% auto;
+  margin: 1% auto;
   padding: 20px;
   background-color: #000000;
   border-radius: 10px;
@@ -133,7 +133,7 @@ margin: 0.5%;
 }
 /*=======================Galeria de Eventos=============================*/
 .container{
-  margin: 1%;
+  margin: 0%;
   background-color: rgb(0, 0, 0);
   width: 100%;
   justify-content: center;
@@ -149,6 +149,7 @@ ul.slider{
   position: relative;
   width: 100%;
   height: 500px;
+  justify-content: center;
 }
 
 ul.slider li {
@@ -178,7 +179,7 @@ ul.slider li:target {
 
 .menu{
   text-align: center;
-  margin: 20px;
+  margin: 15px;
 }
 
 .menu li{
@@ -237,5 +238,69 @@ section div:hover, section a:hover{
 }
 /*=======================YouTube=============================*/
 .youtube {
+  display: flex;
+  justify-content: center;
   margin: 2%;
+}
+/*=======================Footer=============================*/
+footer {
+  padding: 0px;
+  margin-bottom: 1%;
+  text-align: center;
+  }
+
+footer p {
+    color: white;
+  }
+  
+footer ul {
+  display: flex;
+  justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: -10px 0 0 0;
+  }
+  
+footer ul {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+footer ul a { /*Esta es la parte de las Redes*/
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  /* Codigo de los botones de las redes*/ 
+button {
+    background-color: #DDDDDD00;
+    border: none;
+    padding: 0%;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0px;
+    cursor: pointer;
+  }
+  
+button img {
+    width: 35px;
+    height: 35px;
+  }
+
+button :hover{
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.2);
+  }
+
+.tiktoknew {
+  display: flex;
+  background-color: #000000;
+}
+
+.insta {
+  display: flex;
+  justify-content: center;
 }
